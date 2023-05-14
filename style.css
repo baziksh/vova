@@ -1,0 +1,35 @@
+a img{
+    height: 20px;
+}
+.logo{
+    width: 150px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    align-items: center;
+}
+.navigation-middle a{
+   margin: 0 15px;
+}
+body{
+    background-image: url(house.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-container{
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    opacity: 0.5;
+    width: 100%;
+    height: 100px;
+}
+form{
+    color: black;
+    width: 100%;
+}
+.navigation-right img{
+    margin: 0 10px;
+}
